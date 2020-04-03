@@ -1,0 +1,7 @@
+: Hello, Micah
+wait 2000
+: 2 minus 2 = ?
+wait 3000
+- 2 2
+wait 2000
+: ByeBye!
