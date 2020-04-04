@@ -10,6 +10,8 @@ class Interpreter:
             ':':'PRINT',
             '+':'ADD',
             '-':'SUBTRACT',
+            '*':'MULTIPLY',
+            '/':'DIVIDE',
             'wait':'WAIT',
         }
         self.tokens = {
@@ -34,6 +36,18 @@ class Interpreter:
     def SUBTRACT(self, *values):
         try:
             print(int(values[0]) - int(values[1]))
+        except Exception:
+            self._error()
+
+    def MULTIPLY(self, *values):
+        try:
+            print(int(values[0]) * int(values[1]))
+        except Exception:
+            self._error()
+    
+    def DIVIDE(self, *values):
+        try:
+            print(int(values[0]) / int(values[1]))
         except Exception:
             self._error()
 
