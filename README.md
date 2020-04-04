@@ -21,3 +21,14 @@ result: `8`
 subtract  
 Syntax: `- 5 3`  
 result: `2`  
+
+`*`  
+multiply  
+Syntax: `* 2 3`  
+result: `6`  
+
+`/`  
+subtract  
+Syntax: `/ 4 2`  
+result: `2`  
+
