@@ -1,7 +1,7 @@
 # dimani-language
 This is a simple language that I made using python.  
 
-Simply run main.py ($ `python main.py`) (python required, see https://python.org/download for instructions).  
+Simply navigate to the folder and run main.py ($ `python main.py`) (python required, see https://python.org/download for instructions).  
 
 For command line interface, replace `run_from_file('test2.dimi')` on line 80 in main.py with `main()`.  
 
